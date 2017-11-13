@@ -2,37 +2,9 @@
 @import "base";
 .works-box{
   margin: 2rem 0;
-  li{
-    width: calc((100% - 2rem) / 3);
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    .img{
-      padding-top: 140%;
-    }
-  }
 }
 .content{
   .slide-panel{
     max-height: 100px;
-  }
-}
-@media screen and (min-width: 700px){
-  .works-box{
-    li{
-      width: calc((100% - 2rem) / 3);
-      &:nth-child(3n){
-        margin-right: 0;
-      }
-    }
-  }
-}
-@media screen and (max-width: 700px){
-  .works-box{
-    li{
-      width: calc((100% - 2rem) / 2);
-      &:nth-child(2n){
-        margin-right: 0;
-      }
-    }
   }
 }
