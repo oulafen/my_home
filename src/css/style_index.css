@@ -219,7 +219,20 @@ a {
       padding-top: 140%;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray; }
+    .works-box li a:hover .img {
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none; }
 
 @media screen and (min-width: 700px) {
   .works-box li {
@@ -274,14 +287,16 @@ a {
       margin: 0 auto 1.5em;
       padding: 0 1.5em; }
 .content .section-wrap .content-title {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.2rem;
   font-style: normal;
   margin-bottom: 1rem; }
 .content .section-wrap .paragraph {
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   color: #515151;
   line-height: 1.5; }
+  .content .section-wrap .paragraph pre {
+    white-space: pre-line; }
 .content .section-2 .mid-bg {
   background: url(../images/mid_bg.png) center no-repeat;
   background-size: cover;
@@ -296,8 +311,12 @@ a {
   .content .section-4 .content-title {
     text-align: left; }
   .content .section-4 .more {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     float: right; }
+.content .section-5 .container {
+  padding: 1rem; }
+  .content .section-5 .container .content-title {
+    font-size: 1.2rem; }
 
 @media screen and (max-width: 700px) {
   .content .section-wrap .multicol-table .multicol-col {

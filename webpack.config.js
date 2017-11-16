@@ -1,16 +1,27 @@
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        index: './src/js/index.js',
-        list: './src/js/list.js'
+        index: './src/js/index.es6',
+        list: './src/js/list.es6'
     },
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
-        //publicPath: path.resolve(__dirname, 'build')
-        publicPath: 'build'
+        publicPath: 'dist'
     },
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './',
+        hot: true
+    },
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+        new webpack.NamedModulesPlugin(),
+        new webpack.HotModuleReplacementPlugin()
+    ],
     module: {
         loaders: [
             {
