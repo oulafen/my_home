@@ -87,27 +87,32 @@ webpack
    
 ### 项目列表
 
-(说明: 为方便查看, 一些活动链接是后期整理了项目中的纯静态部分, 并放到了Github上)
+    说明: 
+        为方便查看, 一些链接是后期整理了项目中的纯静态部分, 并放到了Github上;  
+        大部分是按开发顺序由近到远排列, 最近开发的在最上面;
+        所展示的为2015年至今部分开发过的项目;
+        
 
 pc端官网
 
+- 李宁10K官网 [https://10k.runninglemon.com](https://10k.runninglemon.com)
+- 众筹平台 [http://blog.oulafen.com/frontend-rmbplus-2.0](http://blog.oulafen.com/frontend-rmbplus-2.0)
 - GreatSeed电商平台 [https://www.greatseed.com](https://www.greatseed.com)
-- 众筹平台 [http://blog.oulafen.com/frontend-rmbplus-2.0/](http://blog.oulafen.com/frontend-rmbplus-2.0/)
-- 李宁10K官网 [https://10k.runninglemon.com/](https://10k.runninglemon.com/)
 
 移动端网站 
 
-- 李宁10K官网移动端 [https://10k.runninglemon.com/](https://10k.runninglemon.com/)
-- CUBA网站 [http://cuba.vivachinasports.com/](http://cuba.vivachinasports.com/)
-- iRun约活动&约机器 [http://10ksearch.runninglemon.com/irun.php/](http://10ksearch.runninglemon.com/irun.php/)
+- 李宁10K官网移动端 [https://10k.runninglemon.com](https://10k.runninglemon.com)
+- iRun约活动&约机器 [http://10ksearch.runninglemon.com/irun.php](http://10ksearch.runninglemon.com/irun.php)
+- CUBA网站 [http://cuba.vivachinasports.com](http://cuba.vivachinasports.com)    
     
 H5活动
 
-- 李宁10K预热 [https://share.runninglemon.com/home/activity/preheating](https://share.runninglemon.com/home/activity/preheating)
-- 城市勋章环游记 [https://share.runninglemon.com/home/activity/city-medal-index](https://share.runninglemon.com/home/activity/city-medal-index)
 - 最美等级介绍 [https://share.runninglemon.com/intro/level](https://share.runninglemon.com/intro/level)
+- 城市勋章环游记 [https://share.runninglemon.com/home/activity/city-medal-index](https://share.runninglemon.com/home/activity/city-medal-index)
 - 柏马活动-刮刮卡 [http://blog.oulafen.com/h5-scratch-card-berlin](http://blog.oulafen.com/h5-scratch-card-berlin)
-- 地图轨迹h5 [http://blog.oulafen.com/demo-draw-map-colorfully/](http://blog.oulafen.com/demo-draw-map-colorfully/)
-- 大头儿子摇一摇抽签小游戏 [http://blog.oulafen.com/h5-big-head-son-game/](http://blog.oulafen.com/h5-big-head-son-game/)
-- 九宫格抽奖 [http://blog.oulafen.com/demo-big-head-son-lucky-draw/](http://blog.oulafen.com/demo-big-head-son-lucky-draw/)
-- 天福号火腿介绍 [http://blog.oulafen.com/h5-tianfuhao-ham/](http://blog.oulafen.com/h5-tianfuhao-ham/)
+- 李宁10K预热 [https://share.runninglemon.com/home/activity/preheating](https://share.runninglemon.com/home/activity/preheating)
+- 地图分享轨迹H5 [http://blog.oulafen.com/demo-draw-map-colorfully](http://blog.oulafen.com/demo-draw-map-colorfully)
+- 天福号火腿介绍 [http://blog.oulafen.com/h5-tianfuhao-ham](http://blog.oulafen.com/h5-tianfuhao-ham)
+- 圣诞节豪礼30宫格抽奖 [http://blog.oulafen.com/h5-chrismas-prize-game](http://blog.oulafen.com/h5-chrismas-prize-game)
+- 大头儿子摇一摇抽签小游戏 [http://blog.oulafen.com/h5-big-head-son-game](http://blog.oulafen.com/h5-big-head-son-game)
+- 大头儿子九宫格抽奖 [http://blog.oulafen.com/demo-big-head-son-lucky-draw](http://blog.oulafen.com/demo-big-head-son-lucky-draw)
