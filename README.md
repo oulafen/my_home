@@ -87,6 +87,8 @@ webpack
    
 ### 项目列表
 
+(说明: 为方便查看, 一些活动链接是后期整理了项目中的纯静态部分, 并放到了Github上)
+
 pc端官网
 
 - GreatSeed电商平台 [https://www.greatseed.com](https://www.greatseed.com)
