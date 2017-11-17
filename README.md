@@ -1,52 +1,9 @@
 # 我的网站
 包括我的个人简介, 心理路程, 以及其他想分享的点点滴滴 
 链接[http://www.oulafen.com](http://www.oulafen.com)
-## 构建过程
-- 安装`webpack`和`es6`
-```
-npm init
-npm install webpack  babel-loader babel-preset-es2015 --save-dev
-```
-- 安装`css`/`sass`解析
-```
-npm install --save-dev css-loader style-loader sass-loader node-sass file-loader url-loader
-```
-- 配置`webpack.config.js`文件
-- 编译
-执行以下命令编译
-```
-webpack
-```
 
-## 错误处理
-- 样式表里背景图片路径的问题
-
-    执行`webpack`命令时报如下图片路径错误
-    ```error
-    ERROR in ./src/images/top_bg.jpg
-    Module parse failed: Unexpected character '�' (1:0)
-    You may need an appropriate loader to handle this file type.
-    (Source code omitted for this binary file)
-     @ ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/css/style.scss 6:4594-4625
-     @ ./src/css/style.scss
-     @ ./src/js/index.js
-    ```
+    项目构建过程[戳这儿](/desc/conf.md)
     
-    解决方法:
-
-    1 首先检查是否安装`file-loader` `url-loader`, 若没有, 则执行
-    ```
-    npm install file-loader url-loader -D
-    ```
-    2 修改配置`webpack.config.js`
-    ```
-     {
-         test: /\.(png|jpg)$/,
-         loader: 'url-loader?limit=200000&name=/imgs/[hash].[ext]' //此处的链接是相对于output中设置的`publicPath`的路径
-     }
-    ```
-    参考: [How to output a image file in css background-image to another folder?](https://github.com/webpack-contrib/url-loader/issues/16)
-
 
 # 内容
 
