@@ -5,10 +5,7 @@ const $ = require('jquery');
 
 
 $(document).ready(function() {
-    $('.J-nav').on('click', () => {
-        var isOpen = $('body').hasClass('navpane-is-open');
-        isOpen ? $('body').removeClass('navpane-is-open') : $('body').addClass('navpane-is-open');
-    });
+    Base.initNav();
 
     Base.scrollHide(window, ".header");
 });

@@ -8,9 +8,9 @@ module.exports = merge(common, {
         contentBase: './',
         hot: true
     },
-     plugins: [
+    plugins: [
         new webpack.NamedModulesPlugin(),
         new webpack.HotModuleReplacementPlugin()
-     ]
+    ]
 })
 

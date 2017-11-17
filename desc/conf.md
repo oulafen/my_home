@@ -80,3 +80,13 @@ npm run build #生产环境
      }
     ```
     参考: [How to output a image file in css background-image to another folder?](https://github.com/webpack-contrib/url-loader/issues/16)
+
+- 应用`CommonsChunkPlugin` 分离公共代码之后报错 `Uncaught ReferenceError: webpackJsonp is not defined`
+
+    解决方法:
+    
+    将公共的文件必须首先被引入进来
+    ```
+    <script type="text/javascript" src="common.js"></script> 公共文件
+    <script type="text/javascript" src="bundle.js"></script> 自己写的文件
+    ```

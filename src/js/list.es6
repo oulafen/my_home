@@ -1,6 +1,7 @@
 import '../css/style_list.scss';
 import './font_size.js';
-import './base.es6';
+import Base from './base.es6';
+const $ = require('jquery');
 
 $(function(){
     Base.initNav();

@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
     entry: {
@@ -10,6 +11,11 @@ module.exports = {
         filename: '[name].bundle.js',
         publicPath: 'dist'
     },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common'
+        })
+    ],
     module: {
         loaders: [
             {

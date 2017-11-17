@@ -2,7 +2,10 @@ const $ = require('jquery');
 const Base = function(){};
 
 Base.initNav = function(){
-
+    $('.J-nav').on('click', () => {
+        var isOpen = $('body').hasClass('navpane-is-open');
+        isOpen ? $('body').removeClass('navpane-is-open') : $('body').addClass('navpane-is-open');
+    });
 };
 
 Base.scrollHide = function(scrollpane, target) {
