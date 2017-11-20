@@ -59,6 +59,7 @@ pc端官网
 移动端网站 
 
 - 李宁10K官网移动端 [https://10k.runninglemon.com](https://10k.runninglemon.com)
+- 积分商城 [https://home.runninglemon.com/h5/score/index](https://home.runninglemon.com/h5/score/index)
 - iRun约活动&约机器 [http://10ksearch.runninglemon.com/irun.php](http://10ksearch.runninglemon.com/irun.php)
 - CUBA网站 [http://cuba.vivachinasports.com](http://cuba.vivachinasports.com)    
     

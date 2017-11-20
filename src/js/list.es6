@@ -1,4 +1,6 @@
+import '../css/_base.scss';
 import '../css/style_list.scss';
+
 import './font_size.js';
 import Base from './base.es6';
 const $ = require('jquery');
