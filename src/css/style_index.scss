@@ -1,10 +1,11 @@
 .content{
     .banner{
         .bg-box{
-            background: url("../images/top_bg.jpg") top center no-repeat;
+            background: url("../images/top_bg2.jpg") top center no-repeat;
             background-size: cover;
             color: #fff;
             text-align: center;
+            text-shadow: 0px 0px 10px rgba(0,0,0,.3);
             .container{
                 padding: 20% 1rem;
             }
@@ -64,7 +65,7 @@
     }
     .section-2{
         .mid-bg{
-            background: url(../images/mid_bg.png) center no-repeat;
+            background: url(../images/mid_bg2.jpg) center no-repeat;
             background-size: cover;
             height: 4.5rem;
         }

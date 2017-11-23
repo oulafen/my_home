@@ -7,6 +7,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="src/css/swiper.min.css">
     <script src="dist/common.bundle.js"></script>
 </head>
 <body data-class="navpane-is-open">
@@ -124,38 +125,44 @@
                         My Works
                         <a class="more" href="work_list.html">更多></a>
                     </h2>
-                    <ul class="works-box">
-                       <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/dog_orig.png)"></div>
-                           </a>
-                       </li>
-                        <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/horse_orig.png)"></div>
-                           </a>
-                       </li>
-                        <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/monkey_orig.png)"></div>
-                           </a>
-                       </li>
-                        <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/retriever_orig.png)"></div>
-                           </a>
-                       </li>
-                        <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/rhino_orig.png)"></div>
-                           </a>
-                       </li>
-                        <li>
-                           <a href="#">
-                               <div class="img" style="background-image: url(./src/images/cheetah_orig.png)"></div>
-                           </a>
-                       </li>
-                    </ul>
+                    <div class="works-box">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="https://10k.runninglemon.com" target="_blank" data-href="https://10k.runninglemon.com">
+                                        <img src="./src/images/works/WEB-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="http://blog.oulafen.com/frontend-rmbplus-2.0" target="_blank" data-href="http://blog.oulafen.com/frontend-rmbplus-2.0">
+                                        <img src="./src/images/works/WEB-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="https://www.greatseed.com" target="_blank" data-href="https://www.greatseed.com">
+                                        <img src="./src/images/works/WEB-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <!--<div class="swiper-slide">-->
+                                    <!--<a href="javascript:;" data-href="https://10k.runninglemon.com">-->
+                                        <!--<img src="./src/images/works/MWEB-1.jpg" alt="">-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="swiper-slide">-->
+                                    <!--<a href="javascript:;" data-href="https://10k.runninglemon.com">-->
+                                        <!--<img src="./src/images/works/MWEB-2.jpg" alt="">-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                                <!--<div class="swiper-slide">-->
+                                    <!--<a href="javascript:;" data-href="https://10k.runninglemon.com">-->
+                                        <!--<img src="./src/images/works/MWEB-3.jpg" alt="">-->
+                                    <!--</a>-->
+                                <!--</div>-->
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
                     <div class="clear"></div>
                 </div>
             </div>

@@ -7,6 +7,8 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="src/css/swiper.min.css">
+    <script src="dist/common.bundle.js"></script>
 </head>
 <body data-class="navpane-is-open">
     <div class="header">
@@ -22,7 +24,7 @@
         <div class="slide-panel" id="menu">
             <div class="container">
                 <ul>
-                    <li class="menu-item active">
+                    <li class="menu-item">
                         <a href="index.html">
                             Home
                         </a>
@@ -52,33 +54,114 @@
                 <div class="container">
                     <ul class="works-box">
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/dog_orig.png)"></div>
+                            <a href="https://10k.runninglemon.com" target="_blank">
+                                <img src="./src/images/works/WEB-1.jpg" alt="" class="img web">
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/horse_orig.png)"></div>
+                            <a href="http://blog.oulafen.com/frontend-rmbplus-2.0" target="_blank">
+                                <img src="./src/images/works/WEB-2.jpg" alt="" class="img web">
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/monkey_orig.png)"></div>
+                            <a href="https://www.greatseed.com" target="_blank">
+                                <img src="./src/images/works/WEB-3.jpg" alt="" class="img web">
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/retriever_orig.png)"></div>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="https://10k.runninglemon.com">
+                                <img src="./src/images/works/MWEB-1.jpg" alt="" class="img mweb">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/MWEB-1-qr.png" alt="">
+                                </div>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/rhino_orig.png)"></div>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://10ksearch.runninglemon.com/irun.php">
+                                <img src="./src/images/works/MWEB-2.jpg" alt="" class="img mweb">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/MWEB-2-qr.png" alt="">
+                                </div>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <div class="img" style="background-image: url(./src/images/cheetah_orig.png)"></div>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://cuba.vivachinasports.com">
+                                <img src="./src/images/works/MWEB-3.jpg" alt="" class="img mweb">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/MWEB-3-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="https://share.runninglemon.com/home/activity/preheating">
+                                <img src="./src/images/works/DH5-1.gif" alt="" class="img h5 dh5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/DH5-1-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="https://share.runninglemon.com/intro/level">
+                                <img src="./src/images/works/DH5-2.gif" alt="" class="img h5 dh5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/DH5-2-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/demo-city-medal">
+                                <img src="./src/images/works/DH5-3.gif" alt="" class="img h5 dh5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/DH5-3-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/h5-scratch-card-berlin">
+                                <img src="./src/images/works/JH5-1.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-1-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/demo-draw-map-colorfully">
+                                <img src="./src/images/works/JH5-2.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-2-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/h5-tianfuhao-ham">
+                                <img src="./src/images/works/JH5-3.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-3-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/h5-chrismas-prize-game">
+                                <img src="./src/images/works/JH5-4.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-4-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/h5-big-head-son-game">
+                                <img src="./src/images/works/JH5-5.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-5-qr.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-action="imgQRCodeCtrl" data-href="http://blog.oulafen.com/demo-big-head-son-lucky-draw">
+                                <img src="./src/images/works/JH5-6.jpg" alt="" class="img h5">
+                                <div class="qr-code">
+                                    <img src="./src/images/works/JH5-6-qr.png" alt="">
+                                </div>
                             </a>
                         </li>
                     </ul>
@@ -90,7 +173,7 @@
     </div>
     <div class="footer">
         <div class="container">
-            <a href="about.html">HOME</a>
+            <a href="index.html">HOME</a>
             <a href="about.html">ABOUT ME</a>
             <a href="http://blog.oulafen.com">BLOG</a>
             <a href="contact.html">CONTACT</a>
@@ -98,7 +181,6 @@
     </div>
     <div class="overlay J-nav"></div>
 
-    <script src="dist/common.bundle.js"></script>
     <script src="dist/list.bundle.js"></script>
 </body>
 </html>
